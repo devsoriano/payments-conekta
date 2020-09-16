@@ -1,0 +1,47 @@
+.icon-item {
+  padding-left: 10px;
+}
+
+.item-declined {
+  background-color: #ffb0b0;
+  color: red;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 14px;
+  display: initial;
+}
+
+.item-refunded {
+  background-color: #a2d5f2;
+  color: #07689f;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 14px;
+  display: initial;
+}
+
+.item-success {
+  background-color: #28df99;
+  color: #206a5d;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 14px;
+  display: initial;
+}
+
+.item-other-status {
+  background-color: #d6e0f0;
+  color: #393b44;
+  border-radius: 10px;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 14px;
+  display: initial;
+}

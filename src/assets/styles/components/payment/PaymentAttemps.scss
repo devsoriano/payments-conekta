@@ -1,0 +1,20 @@
+.brand {
+  margin-top: -16px;
+  position: absolute;
+}
+
+.status {
+  display: none;
+}
+
+.content-min {
+  display: flex;
+  justify-content: space-around;
+}
+
+//show min table in mobile first
+@media (max-width: 768px) {
+  .status {
+    display: block;
+  }
+}

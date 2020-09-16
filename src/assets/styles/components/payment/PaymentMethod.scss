@@ -1,0 +1,41 @@
+img.img-visa {
+  margin-top: 8px;
+}
+
+.col-brand {
+  display: grid;
+  justify-content: center;
+}
+
+.col-bank {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-ed-auth {
+  font-size: 12px;
+}
+
+.col-name, .col-last4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-last4 {
+  margin-top: 5%
+}
+
+.blue {
+  background-color: #00416d !important;
+  color: #fff
+}
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
+
+.col-name {
+  margin-bottom: 15%
+}

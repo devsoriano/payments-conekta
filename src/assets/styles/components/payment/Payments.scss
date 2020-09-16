@@ -1,0 +1,23 @@
+td, th {
+  text-align: center;
+}
+
+img.img-amex,
+img.img-visa {
+  margin-left: 4px;
+  margin-top: -2px;
+  width: 40px;
+}
+
+.search-payment {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .amount,
+  .payment-date,
+  .payment-type,
+  .payment-status {
+    display: none;
+  }
+}

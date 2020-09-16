@@ -1,0 +1,32 @@
+.optional {
+  display: none;
+}
+
+.results {
+  display: contents;
+  text-align: end;
+}
+
+.subtotal-tag {
+  position: absolute;
+  margin-left: -90px;
+}
+
+.fee-tag {
+  position: absolute;
+  margin-left: -72px;
+}
+
+.total-tag {
+  position: absolute;
+  margin-left: -56px;
+}
+
+@media (max-width: 768px) {
+  .invisible-custom {
+    display: none;
+  }
+  .optional {
+    display: block;
+  }
+}
