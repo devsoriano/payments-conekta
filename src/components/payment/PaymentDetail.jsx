@@ -21,7 +21,6 @@ const PaymentDetail = props => {
     setLoading(false);
   }, []);
 
-
   if (loading) {
     return <h2>Cargando...</h2>;
   }

@@ -52,12 +52,20 @@ a, a:hover, a:focus {
   text-align: right;
 }
 
+.logo {
+  cursor: pointer;  
+}
+
 .profile-content:hover ul.ul-profile-content, ul.ul-profile-content:hover {
 	display: block;
 }
 
 .profile-content li.li-profile-content {
-  margin: 10px 0px;
+  margin: 0px 0px;
+  width: 100%;
+  background-color: #e8e8e8;
+  color: #132743;
+  font-size: 12px;
 }
 
 .profile-content li.li-profile-content a {
@@ -68,6 +76,8 @@ a, a:hover, a:focus {
 .profile-content li.li-profile-content a:hover {
   cursor: pointer;
   text-decoration: underline;
+  background-color: white;
+  width: 100%;
 }
 
 .profile-content-photo {
@@ -89,7 +99,6 @@ a, a:hover, a:focus {
 }
 
 /** SIDEBAR STYLE **/
-
 .wrapper {
   display: flex;
   width: 100%;
@@ -212,7 +221,6 @@ a.article, a.article:hover {
   transform: rotate(-45deg) translate(1px, -1px);
 }
 
-
 #sidebarCollapse.active span {
   transform: none;
   opacity: 1;
@@ -256,37 +264,21 @@ a.article, a.article:hover {
 }
 
 #sidebarCollapse {
-  background-color: transparent;
-  width: 0px;
-  height: 0px;
-}
-
-.burger {
-  display: none;
+  cursor: pointer;
 }
 
 /**Media querys**/
-
 @media (max-width: 768px) {
-  #sidebarCollapse {
-    width: 40px;
-    height: 40px;
-    background-color: #f5f5f5;
-    cursor: pointer;
-  }
-
-  .burger {
-    display: block;
-  }
-
   #sidebar {
     margin-left: -250px;
     transform: rotateY(90deg);
   }
+
   #sidebar.active {
     margin-left: 0;
     transform: none;
   }
+
   #sidebarCollapse span:first-of-type,
   #sidebarCollapse span:nth-of-type(2),
   #sidebarCollapse span:last-of-type {

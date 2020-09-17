@@ -32,8 +32,9 @@ const getSumTotal = items => {
 
   let sumTotal = 0;
 
+  // total is unite price * quantiy, in frontend show only unit price
   items.map( item => {
-    sumTotal += item.unit_price;
+    sumTotal += (item.unit_price * item.quantity);
   });
 
   return sumTotal;

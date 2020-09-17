@@ -6,13 +6,14 @@ import logo from '../../assets/static/logo.svg';
 
 const NavMenu = () => {
 
+
   //to use history from react-router-dom
   let history = useHistory();
 
   return (
     <nav id="sidebar">
       <div className="sidebar-header">
-        <img className='logo' src={logo} alt='Logo' />
+        <img onClick={() => history.push('/')} className='logo' src={logo} alt='Logo' />
       </div>
       <ul className="list-unstyled components">
         <li>

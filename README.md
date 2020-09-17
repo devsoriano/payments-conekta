@@ -6,8 +6,6 @@ _Proyecto coding challlenge conekta, examen práctico_
 
 _Se mostrarán dos pantallas, lista de payments y el detalle de un payment mediante las instrucciones proporcionadas_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
 
 ### Pre-requisitos 📋
 
@@ -27,6 +25,7 @@ _una vez instaladas las utilerías de node, ejecutar:_
 ```
 npm start
 ```
+
 
 
 ⌨️ con ❤️ por [Rafael Soriano Ramírez](https://github.com/sorianos) 😊

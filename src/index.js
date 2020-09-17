@@ -371,6 +371,12 @@ const initialState = {
           "unit_price": 10000,
           "quantity": 1,
           "metadata": []
+        },
+        {
+          "name": "Box of Cohiba S1s",
+          "unit_price": 12000,
+          "quantity": 2,
+          "metadata": []
         }
       ]
     }
