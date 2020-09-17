@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rafael Soriano Ramírez",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.11.4",
