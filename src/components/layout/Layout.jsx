@@ -1,9 +1,15 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import NavMenu from './NavMenu';
 import Footer from './Footer';
 import my from '../../assets/static/my.jpg'
 
-const Layout = ({children}) => (
+const Layout = ({children}) => {
+  
+  //to use history from react-router-dom
+  let history = useHistory();
+
+  return (
   <>
     <NavMenu />
     <div id="content">
@@ -22,10 +28,12 @@ const Layout = ({children}) => (
             </div>
             <ul className="ul-profile-content">
               <li className="li-profile-content">
-                <a>Profile</a>
+                <i class="fal fa-user-circle"></i>
+                <a onClick={() => history.push('/')} >Profile</a>
               </li>
               <li className="li-profile-content">
-                <a>Close session</a>
+                <i class="far fa-door-closed"></i>
+                <a onClick={() => history.push('/')}>Exit</a>
               </li>
             </ul>
           </div>
@@ -35,6 +43,6 @@ const Layout = ({children}) => (
     </div>
     <Footer />
   </>
-);
+)};
 
 export default Layout;
