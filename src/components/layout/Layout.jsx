@@ -28,11 +28,11 @@ const Layout = ({children}) => {
             </div>
             <ul className="ul-profile-content">
               <li className="li-profile-content">
-                <i class="fal fa-user-circle"></i>
+                <i className="fal fa-user-circle"></i>
                 <a onClick={() => history.push('/')} >Profile</a>
               </li>
               <li className="li-profile-content">
-                <i class="far fa-door-closed"></i>
+                <i className="far fa-door-closed"></i>
                 <a onClick={() => history.push('/')}>Exit</a>
               </li>
             </ul>
